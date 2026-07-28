@@ -50,7 +50,7 @@ jobs:
         uses: appetizeio/github-action-appetize@v1.0.5
         with:
           apiToken: ${{ secrets.APPETIZE_API_TOKEN }}
-          publicKey: ${{ secrets.APPETIZE_PUBLIC_KEY }}
+#          publicKey: ${{ secrets.APPETIZE_PUBLIC_KEY }}
           appFile: iosApp.zip
           platform: ios
 
